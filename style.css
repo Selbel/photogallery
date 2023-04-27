@@ -73,7 +73,7 @@ p {
   }
   .container{
       position: relative; 
-      margin:0;   
+      margin:5px;   
   }
 figcaption{
       position: absolute;
