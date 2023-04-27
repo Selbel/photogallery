@@ -27,7 +27,7 @@ p {
   header, footer{
     text-align: center;
   }
-  [href="top.htm"] {
+  [href="#top"] {
     position:fixed;
     bottom: 0px;
     right:50px;
@@ -81,10 +81,10 @@ figcaption{
       padding-bottom: 10%;
   }
 
-  form{
+  #contact{
     color: #ffffff;
   }
-  form h2, form p, form h4{
+  #contact h2, #contact p, #contact h4{
     text-align: center;
   }
   .row{
