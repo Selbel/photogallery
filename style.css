@@ -154,7 +154,8 @@ figcaption{
   }   
   #photos{
     display: grid;
-    column-gap: 0px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
     grid-template-areas:
     "chile"
     "guatemala"
