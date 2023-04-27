@@ -166,7 +166,7 @@ figcaption{
     margin-bottom: -150px
   }
   @media (min-width: 879px){
-    nav li{
+    nav a{
         justify-content: left;
     }
     #photos{
