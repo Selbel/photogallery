@@ -155,8 +155,8 @@ figcaption{
   #photos{
     display: grid;
     grid-gap: 5px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
     grid-template-areas:
     "chile"
     "guatemala"
