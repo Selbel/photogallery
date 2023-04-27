@@ -36,7 +36,7 @@ p {
   background-color: black;
     text-transform: uppercase;
   }
-  [href="top"]:hover {
+  [href="#top"]:hover {
     background-color: #ffffff;
     color: black;
   }
