@@ -158,7 +158,6 @@ figcaption{
     display: grid;
     grid-column-gap: 20px;
     grid-row-gap: 20px;
-    
   }
   footer{
     font-size: small;
