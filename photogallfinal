@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>photo-gallery</title>
+<link rel="stylesheet" href="style.css">
+<link rel="images" href="images/">
+</head>
+<body>
+    <header>
+    <h1>TK Photography</h1>
+    <nav>
+        <ul>
+            <li><a href="About.htm">About</a></li>
+            <li><a href="gallery.htm">Gallery</a></li>
+            <li><a href="Contact.htm">Contact</a></li>
+            <li><a href="top.htm">top</a></li>
+        </ul>
+       </nav>
+    </header>
+    <main>
+    <article id="about">
+        <h2>About</h2>
+            <section>
+                <p>Hello!</p>
+                <p>I'm TK and I'm a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it’s taken me all over the world. </p>
+            </section>
+    </article>
+    <article id="gallery">
+    <h2>Gallery</h2>
+        <section>
+            <p>Here are some highlights of my work. The locations and year are in the caption.</p> 
+        </section>
+        <figure id="photos">
+            <div class="container">
+                <img src="Chile.png" alt="chile" style="width:100%;">
+                <figcaption>Chile, 2001</figcaption>
+            </div>
+            <div class="container">
+                <img src="Guatemala.png" alt="guatemala" style="width:100%;">
+                <figcaption>Guatemala, 1997</figcaption>
+            </div>
+            <div class="container">
+                <img src="Hawaii.png" alt="hawaii" style="width:100%;">
+                <figcaption>Hawaii, 2010</figcaption>
+            </div>
+            <div class="container">
+                <img src="Iran.png" alt="iran" style="width:100%;">
+                <figcaption>Iran, 1999</figcaption>   
+            </div>
+            <div class="container">
+                <img src="Ireland.png" alt="ireland" style="width:100%;">
+                 <figcaption>Ireland, 2012</figcaption>   
+            </div>
+            <div class="container">
+                <img src="Italy.png" alt="italy" style="width:100%;">
+                <figcaption>Italy, 2015</figcaption>   
+            </div>
+            <div class="container">
+                <img src="Moab-Desert.png" alt="moab" style="width:100%;">
+                <figcaption>Moab-Desert, 2020</figcaption>   
+            </div>
+            <div class="container">
+                <img src="Rocky-Mountains.png" alt="rocky" style="width:100%;">
+                <figcaption>Rocky Mountains, 2009</figcaption>   
+            </div>
+            <div class="container">
+                <img src="Switzerland.png" alt="switzerland" style="width:100%;">
+                <figcaption>Switzerland, 2014</figcaption>   
+            </div>
+            <div class="container">
+                <img src="UK.png" alt="uk" style="width:100%;">
+                <figcaption>UK, 2005</figcaption>   
+            </div>
+            <div class="container">
+                <img src="USA.png" alt="usa" style="width:100%;">
+                <figcaption>USA, 2021</figcaption>   
+            </div>
+            <div class="container">
+                <img src="Wyoming.png" alt="wyoning" style="width:100%;">
+                <figcaption>Wyoming, 2021</figcaption>   
+            </div>
+        </figure>
+    </article>
+    </main>
+    <form>
+    <h2>Contact</h2>
+        <p>Please fill out this form and I'll connect with you soon.</p>
+    <h4>Your contact information</h4>
+        <div class="row">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your full name">
+        </div>
+        <div class="row">
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="Enter your email address">
+        </div>
+        <div class="row">
+            <label for="message">Message</label>
+            <input type="text" id="message" placeholder="What can I help you with?">
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+    <footer>Copyright 2021 TK Photography</footer>
+    </body>
+    </html>
