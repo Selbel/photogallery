@@ -36,6 +36,10 @@ p {
   background-color: black;
     text-transform: uppercase;
   }
+  [href="top"]:hover {
+    background-color: #ffffff;
+    color: black;
+  }
   h1 {
     font-size: 3em;
   }
